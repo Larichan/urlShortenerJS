@@ -1,0 +1,25 @@
+{
+  "name": "encurtador-url-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start",
+    "migrate": "node-pg-migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "node-pg-migrate": "^7.6.1",
+    "nodemon": "^3.1.4"
+  }
+}
